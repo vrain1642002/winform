@@ -1,0 +1,8 @@
+D:\C#\BanSach\bin\Debug\bansach.exe.config
+D:\C#\BanSach\bin\Debug\bansach.exe
+D:\C#\BanSach\bin\Debug\bansach.pdb
+D:\C#\BanSach\obj\x86\Debug\bansach.csproj.AssemblyReference.cache
+D:\C#\BanSach\obj\x86\Debug\bansach.csproj.SuggestedBindingRedirects.cache
+D:\C#\BanSach\obj\x86\Debug\bansach.csproj.CoreCompileInputs.cache
+D:\C#\BanSach\obj\x86\Debug\bansach.exe
+D:\C#\BanSach\obj\x86\Debug\bansach.pdb

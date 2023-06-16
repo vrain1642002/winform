@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{15977751-77BF-4FA5-A6C9-F396A1089BD6}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>bansach</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bansach.Properties\Resources.cs" />
+    <Compile Include="bansach.Properties\Settings.cs" />
+    <Compile Include="bansach\CChiTietHoaDon.cs" />
+    <Compile Include="bansach\CChiTietPhieuNhap.cs" />
+    <Compile Include="bansach\CConst.cs" />
+    <Compile Include="bansach\CHoaDon.cs" />
+    <Compile Include="bansach\CLichSuHD.cs" />
+    <Compile Include="bansach\CNhanVien.cs" />
+    <Compile Include="bansach\CNhaXuatBan.cs" />
+    <Compile Include="bansach\CPhieuNhap.cs" />
+    <Compile Include="bansach\CSach.cs" />
+    <Compile Include="bansach\CViewHoaDon.cs" />
+    <Compile Include="bansach\CViewPhieuNhap.cs" />
+    <Compile Include="bansach\CXuLyHoaDon.cs" />
+    <Compile Include="bansach\CXuLyLichSuHD.cs" />
+    <Compile Include="bansach\CXuLyNV.cs" />
+    <Compile Include="bansach\CXuLyNXB.cs" />
+    <Compile Include="bansach\CXuLyPhieuNhap.cs" />
+    <Compile Include="bansach\CXuLySach.cs" />
+    <Compile Include="bansach\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bansach\MainNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bansach\MainNXB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bansach\MainQL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bansach\NV_BanSach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bansach\NV_ThongKe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bansach\NV_XemChiTietHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bansach\NV_XemHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bansach\NV_XemThongTinCN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bansach\NXB_TaoPhieuNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bansach\NXB_XemChiTietPhieuNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bansach\NXB_XemPhieuNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bansach\NXB_XemThongTinNXB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bansach\Program.cs" />
+    <Compile Include="bansach\QL_BaoCao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bansach\QL_DanhMucSach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bansach\Ql_LichSuHoatDong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bansach\Ql_NhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bansach\QL_NhaXuatBan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bansach\QL_XacNhanPN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomButton\VBButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="bansach.Properties\Resources.resources" />
+    <EmbeddedResource Include="bansach\Login.resources" />
+    <EmbeddedResource Include="bansach\MainNV.resources" />
+    <EmbeddedResource Include="bansach\MainNXB.resources" />
+    <EmbeddedResource Include="bansach\MainQL.resources" />
+    <EmbeddedResource Include="bansach\NV_BanSach.resources" />
+    <EmbeddedResource Include="bansach\NV_ThongKe.resources" />
+    <EmbeddedResource Include="bansach\NV_XemChiTietHoaDon.resources" />
+    <EmbeddedResource Include="bansach\NV_XemHoaDon.resources" />
+    <EmbeddedResource Include="bansach\NV_XemThongTinCN.resources" />
+    <EmbeddedResource Include="bansach\NXB_TaoPhieuNhap.resources" />
+    <EmbeddedResource Include="bansach\NXB_XemChiTietPhieuNhap.resources" />
+    <EmbeddedResource Include="bansach\NXB_XemPhieuNhap.resources" />
+    <EmbeddedResource Include="bansach\NXB_XemThongTinNXB.resources" />
+    <EmbeddedResource Include="bansach\QL_BaoCao.resources" />
+    <EmbeddedResource Include="bansach\QL_DanhMucSach.resources" />
+    <EmbeddedResource Include="bansach\Ql_LichSuHoatDong.resources" />
+    <EmbeddedResource Include="bansach\Ql_NhanVien.resources" />
+    <EmbeddedResource Include="bansach\QL_NhaXuatBan.resources" />
+    <EmbeddedResource Include="bansach\QL_XacNhanPN.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
