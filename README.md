@@ -1,0 +1,3 @@
+Đây là project đồ án tin học của mình.Là đồ án chính thức đầu tiên tại trường đại học.Đồ án được viết bằng ngôn ngữ C#,cơ sở dữ liệu là đọc,ghi file.Chi tiết về ứng dụng,cách sử dụng được mình trình bày kĩ càng
+trong file báo cáo.Mình quên lưu trữ lại source code nên khi sự cố xảy ra thì đã mất.Và rồi mình tìm hiểu thì mình dùng phần mềm ILSpy_Master_2.0.0.1546_Binaries mình đã dịch ngược từ file exe của mình thành project thành 
+công.Tuy nhiên hạn chế là các dữ liệu về hình ảnh,icon đã biên dịch thành mã,không thể khôi phục về ban đầu.Chương trình thực thi bình thường nhưng khi design,thiết kế winform sẽ báo lỗi giao diện.
